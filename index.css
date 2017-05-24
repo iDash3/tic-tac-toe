@@ -1,0 +1,61 @@
+body{
+	background: black;
+	color: white;
+	font-family: 'Baloo', cursive;
+}
+header{
+	display: flex;
+	justify-content: center;
+	background: white;
+	color: black;
+	font-size: 25px;
+}
+.board{
+	position: relative;
+	height: 500px;
+	width: 500px;
+	margin: 50px;
+}
+.row{
+	display: flex;
+	justify-content: space-between;
+}
+.line{
+	height: 150px;
+	position: relative;
+	background: white;
+	width: 1px;
+	border: 2px solid white;
+	border-width: thick;
+	float: left;
+}
+.line_h{
+	background: white;
+	height: : 1px;
+	border: 2px solid white;
+	border-width: thick;
+}
+.square{
+	width: 150px;
+	font-size: 100px;
+	text-align: center;
+}
+.container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.b_container{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.button{
+	font-size: 25px;
+	padding: 5px;
+	margin: 30px;
+	color: gray;
+}
+.button.active{
+	color: white;
+}
